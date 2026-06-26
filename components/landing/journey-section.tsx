@@ -30,35 +30,6 @@ const timeline = [
 export function JourneySection() {
   return (
     <section id="about" className="bg-background py-20 md:py-28 relative overflow-hidden">
-      {/* Decorative golden elements */}
-      
-      {/* Branch with flowers — upper right area, medium (50-70% scale) — 20% smaller */}
-      <div
-        className="absolute -top-16 -right-20 w-56 h-40 opacity-68 pointer-events-none animate-float"
-        style={{
-          backgroundImage: 'url(/decorations/fon-10.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          animation: 'float 6.3s ease-in-out infinite',
-          animationDelay: '0.2s',
-          zIndex: 4,
-          transform: 'rotate(-22deg)',
-        }}
-      />
-
-      {/* Ribbon — bottom left area, large (70-90% scale) — 20% smaller */}
-      <div
-        className="absolute -bottom-24 -left-20 w-80 h-64 opacity-62 pointer-events-none animate-float"
-        style={{
-          backgroundImage: 'url(/decorations/fon-11.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          animation: 'float 6.7s ease-in-out infinite',
-          animationDelay: '0.9s',
-          zIndex: 3,
-          transform: 'rotate(16deg)',
-        }}
-      />
 
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-5 md:px-10 lg:grid-cols-2 lg:gap-16 relative z-10">
         <div className="relative order-2 min-h-[420px] overflow-hidden rounded-2xl lg:order-1 lg:min-h-[620px]">

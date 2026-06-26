@@ -20,49 +20,6 @@ const points = [
 export function RecognizeSection() {
   return (
     <section className="relative bg-background py-7 overflow-hidden">
-      {/* Decorative golden elements */}
-      
-      {/* Butterfly — top left, medium (50-70% scale) — 20% smaller */}
-      <div
-        className="absolute -top-20 -left-16 w-44 h-40 opacity-75 pointer-events-none animate-float"
-        style={{
-          backgroundImage: 'url(/decorations/fon-9.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          animation: 'float 5.9s ease-in-out infinite',
-          animationDelay: '0.3s',
-          zIndex: 4,
-          transform: 'rotate(-12deg)',
-        }}
-      />
-
-      {/* Heart accent — bottom right, small (20-40% scale) — 20% smaller */}
-      <div
-        className="absolute -bottom-8 -right-12 w-24 h-24 opacity-68 pointer-events-none animate-float"
-        style={{
-          backgroundImage: 'url(/decorations/fon-7.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          animation: 'float 5.5s ease-in-out infinite',
-          animationDelay: '0.6s',
-          zIndex: 3,
-          transform: 'rotate(8deg)',
-        }}
-      />
-
-      {/* Flowers branch — upper right area, new accent element */}
-      <div
-        className="absolute -top-24 -right-12 w-56 h-48 opacity-65 pointer-events-none animate-float"
-        style={{
-          backgroundImage: 'url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%A1%D0%BB%D0%BE%D0%B9%206-RJUreDpf9wGZQxpgryRlfj8UluBb6m.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          animation: 'float 6.0s ease-in-out infinite',
-          animationDelay: '0.9s',
-          zIndex: 2,
-          transform: 'rotate(18deg)',
-        }}
-      />
 
       <div className="mx-auto max-w-7xl px-5 md:px-10">
         {/* Header Label */}

@@ -7,35 +7,6 @@ import { AnimatedScale } from '../animated-fade-up'
 export function AudienceSection() {
   return (
     <section className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-5 py-16 md:px-10 lg:grid-cols-2 relative overflow-hidden">
-      {/* Decorative golden elements */}
-      
-      {/* Branch with flowers — upper left area, medium (50-70% scale) — 20% smaller */}
-      <div
-        className="absolute -top-20 -left-24 w-64 h-44 opacity-62 pointer-events-none animate-float"
-        style={{
-          backgroundImage: 'url(/decorations/fon-10.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          animation: 'float 6.2s ease-in-out infinite',
-          animationDelay: '0.3s',
-          zIndex: 4,
-          transform: 'rotate(-28deg)',
-        }}
-      />
-
-      {/* Compass — bottom right area, medium (50-70% scale) — 20% smaller */}
-      <div
-        className="absolute -bottom-16 -right-20 w-64 h-64 opacity-55 pointer-events-none animate-float"
-        style={{
-          backgroundImage: 'url(/decorations/fon-8.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          animation: 'float 6.6s ease-in-out infinite',
-          animationDelay: '0.8s',
-          zIndex: 3,
-          transform: 'rotate(24deg)',
-        }}
-      />
       {/* Women */}
       <AnimatedScale>
       <article className="relative overflow-hidden rounded-2xl">

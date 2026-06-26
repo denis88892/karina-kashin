@@ -4,35 +4,6 @@ import Image from 'next/image'
 export function MissionBanner() {
   return (
     <section className="relative text-primary-foreground overflow-hidden" style={{ backgroundColor: '#251D1A' }}>
-      {/* Decorative golden elements on dark background */}
-      
-      {/* Feather — top right area, medium (50-70% scale) — 20% smaller */}
-      <div
-        className="absolute -top-20 -right-16 w-44 h-44 opacity-28 pointer-events-none animate-float"
-        style={{
-          backgroundImage: 'url(/decorations/fon-12.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          animation: 'float 6.0s ease-in-out infinite',
-          animationDelay: '0.4s',
-          zIndex: 4,
-          transform: 'rotate(-25deg)',
-        }}
-      />
-
-      {/* Lotus — bottom left area, large (70-90% scale) — 20% smaller */}
-      <div
-        className="absolute -bottom-32 -left-32 w-80 h-64 opacity-18 pointer-events-none animate-float"
-        style={{
-          backgroundImage: 'url(/decorations/fon-5.png)',
-          backgroundSize: 'contain',
-          backgroundRepeat: 'no-repeat',
-          animation: 'float 6.8s ease-in-out infinite',
-          animationDelay: '0.7s',
-          zIndex: 3,
-          transform: 'rotate(10deg)',
-        }}
-      />
 
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-10 lg:grid-cols-2 relative z-10">
         <div className="px-5 py-16 md:px-10 lg:py-24">

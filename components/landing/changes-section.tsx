@@ -23,50 +23,6 @@ const arriveItems = [
 // Decorative background gradients and patterns
 const DecorativeBackground = () => (
   <>
-    {/* Subtle radial gradient circles */}
-    <div
-      className="absolute top-40 left-1/4 w-96 h-96 opacity-5 pointer-events-none"
-      style={{
-        background: 'radial-gradient(circle, #C9A063 0%, transparent 70%)',
-        borderRadius: '50%',
-      }}
-    />
-    <div
-      className="absolute bottom-20 right-1/3 w-80 h-80 opacity-3 pointer-events-none"
-      style={{
-        background: 'radial-gradient(circle, #C9A063 0%, transparent 70%)',
-        borderRadius: '50%',
-      }}
-    />
-    
-    {/* Decorative gold lotus sculpture - top left */}
-    <div
-      className="absolute -top-16 -left-20 w-48 h-48 opacity-70 pointer-events-none"
-      style={{
-        backgroundImage: 'url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%A1%D0%BB%D0%BE%D0%B9%208-q3jUI6u8cvkTdOCklS1FRl8rXFji2u.png)',
-        backgroundSize: 'contain',
-        backgroundRepeat: 'no-repeat',
-      }}
-    />
-    
-    {/* Floating gold spheres - right side */}
-    <div
-      className="absolute top-48 right-12 w-20 h-20 opacity-50 pointer-events-none"
-      style={{
-        background: 'radial-gradient(circle at 30% 30%, #E8D4B8, #C9A063)',
-        borderRadius: '50%',
-        boxShadow: '0 15px 40px rgba(201, 160, 99, 0.2)',
-      }}
-    />
-    <div
-      className="absolute bottom-40 right-28 w-12 h-12 opacity-40 pointer-events-none"
-      style={{
-        background: 'radial-gradient(circle at 30% 30%, #E8D4B8, #C9A063)',
-        borderRadius: '50%',
-        boxShadow: '0 8px 20px rgba(201, 160, 99, 0.15)',
-      }}
-    />
-
   </>
 )
 
