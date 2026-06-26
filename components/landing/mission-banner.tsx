@@ -10,7 +10,7 @@ export function MissionBanner() {
       <div
         className="absolute -top-20 -right-16 w-44 h-44 opacity-28 pointer-events-none animate-float"
         style={{
-          backgroundImage: 'url(/decorations/слой 12.png)',
+          backgroundImage: 'url(/decorations/fon-12.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           animation: 'float 6.0s ease-in-out infinite',
@@ -24,7 +24,7 @@ export function MissionBanner() {
       <div
         className="absolute -bottom-32 -left-32 w-80 h-64 opacity-18 pointer-events-none animate-float"
         style={{
-          backgroundImage: 'url(/decorations/слой 5.png)',
+          backgroundImage: 'url(/decorations/fon-5.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           animation: 'float 6.8s ease-in-out infinite',

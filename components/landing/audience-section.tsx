@@ -13,7 +13,7 @@ export function AudienceSection() {
       <div
         className="absolute -top-20 -left-24 w-64 h-44 opacity-62 pointer-events-none animate-float"
         style={{
-          backgroundImage: 'url(/decorations/слой 10.png)',
+          backgroundImage: 'url(/decorations/fon-10.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           animation: 'float 6.2s ease-in-out infinite',
@@ -27,7 +27,7 @@ export function AudienceSection() {
       <div
         className="absolute -bottom-16 -right-20 w-64 h-64 opacity-55 pointer-events-none animate-float"
         style={{
-          backgroundImage: 'url(/decorations/слой 8.png)',
+          backgroundImage: 'url(/decorations/fon-8.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           animation: 'float 6.6s ease-in-out infinite',

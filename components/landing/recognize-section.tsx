@@ -26,7 +26,7 @@ export function RecognizeSection() {
       <div
         className="absolute -top-20 -left-16 w-44 h-40 opacity-75 pointer-events-none animate-float"
         style={{
-          backgroundImage: 'url(/decorations/слой 9.png)',
+          backgroundImage: 'url(/decorations/fon-9.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           animation: 'float 5.9s ease-in-out infinite',
@@ -40,7 +40,7 @@ export function RecognizeSection() {
       <div
         className="absolute -bottom-8 -right-12 w-24 h-24 opacity-68 pointer-events-none animate-float"
         style={{
-          backgroundImage: 'url(/decorations/слой 7.png)',
+          backgroundImage: 'url(/decorations/fon-7.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           animation: 'float 5.5s ease-in-out infinite',
