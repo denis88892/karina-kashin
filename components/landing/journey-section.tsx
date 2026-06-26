@@ -36,7 +36,7 @@ export function JourneySection() {
       <div
         className="absolute -top-16 -right-20 w-56 h-40 opacity-68 pointer-events-none animate-float"
         style={{
-          backgroundImage: 'url(/decorations/слой 10.png)',
+          backgroundImage: 'url(/decorations/fon-10.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           animation: 'float 6.3s ease-in-out infinite',
@@ -50,7 +50,7 @@ export function JourneySection() {
       <div
         className="absolute -bottom-24 -left-20 w-80 h-64 opacity-62 pointer-events-none animate-float"
         style={{
-          backgroundImage: 'url(/decorations/слой 11.png)',
+          backgroundImage: 'url(/decorations/fon-11.png)',
           backgroundSize: 'contain',
           backgroundRepeat: 'no-repeat',
           animation: 'float 6.7s ease-in-out infinite',
