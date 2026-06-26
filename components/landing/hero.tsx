@@ -184,6 +184,82 @@ export function Hero() {
             />
 
             {/* ── DECORATIVE GOLDEN PNG ELEMENTS (Premium Luxury Distribution) ── */}
+
+            {/* Lotus — top right, large (70-90% scale) — 20% smaller — 50% reduced */}
+            <div
+              className="absolute pointer-events-none animate-float"
+              style={{ 
+                top: '5%', 
+                right: '5%', 
+                width: 112, 
+                height: 112, 
+                zIndex: 10, 
+                animationDuration: '5.8s', 
+                animationDelay: '0s',
+                transform: 'rotate(-8deg)',
+                backgroundImage: 'url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%A1%D0%BB%D0%BE%D0%B9%208-q3jUI6u8cvkTdOCklS1FRl8rXFji2u.png)',
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                opacity: 0.85,
+              }}
+            />
+
+            {/* Infinity Ribbon — center-left area, medium (50-70% scale) — 20% smaller */}
+            <div
+              className="absolute pointer-events-none animate-float"
+              style={{ 
+                top: '35%', 
+                left: '3%', 
+                width: 160, 
+                height: 160, 
+                zIndex: 9, 
+                animationDuration: '6.2s', 
+                animationDelay: '0.4s',
+                transform: 'rotate(12deg)',
+                backgroundImage: 'url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%A1%D0%BB%D0%BE%D0%B9%2010-2vPeuBgVCO4P47ULoThzULI3950Dzy.png)',
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                opacity: 0.78,
+              }}
+            />
+
+            {/* Hourglass — bottom left, large (70-90% scale) — 20% smaller */}
+            <div
+              className="absolute pointer-events-none animate-float"
+              style={{ 
+                bottom: '8%', 
+                left: '-8%', 
+                width: 256, 
+                height: 192, 
+                zIndex: 8, 
+                animationDuration: '6.5s', 
+                animationDelay: '0.8s',
+                transform: 'rotate(-15deg)',
+                backgroundImage: 'url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%A1%D0%BB%D0%BE%D0%B9%2011-mwttu1p6yShMGCfwExOuv8L0OyHMA1.png)',
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                opacity: 0.82,
+              }}
+            />
+
+            {/* Butterfly — lower right, small (20-40% scale) — 20% smaller */}
+            <div
+              className="absolute pointer-events-none animate-float"
+              style={{ 
+                bottom: '20%', 
+                right: '12%', 
+                width: 72, 
+                height: 72, 
+                zIndex: 11, 
+                animationDuration: '5.3s', 
+                animationDelay: '0.2s',
+                transform: 'rotate(6deg)',
+                backgroundImage: 'url(https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%D0%A1%D0%BB%D0%BE%D0%B9%209-8OOBV3lRmzCRZdzBqyxFJdVp5jgGWe.png)',
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                opacity: 0.9,
+              }}
+            />
           </div>
         </div>
       </div>
